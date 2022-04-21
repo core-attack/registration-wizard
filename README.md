@@ -16,15 +16,15 @@ Description:
 You need to create a simple web page that should contain a registration wizard. The registration wizard includes two steps:
 
 Step 1: (all fields are required)
-Login - valid email.
-Password - must contain min 1 digit and min 1 letter.
-Confirm password - must be the same with the field ”password”.
-I agree checkbox - is a required checkbox.
-Button next - should validate all fields on the step and show validation errors (under the fields) or go to the next step.
+- Login - valid email.
+- Password - must contain min 1 digit and min 1 letter.
+- Confirm password - must be the same with the field ”password”.
+- I agree checkbox - is a required checkbox.
+- Button next - should validate all fields on the step and show validation errors (under the fields) or go to the next step.
 
 Step 2: (all fields are required)
-Country - drop-down list, which contains a list of counties.
-Province - contains a list of provinces for the selected country. The list of provinces should be loaded by AJAX if the country is changed.
-Button save - should validate all fields on the step and show validation errors (under the fields) or save the data from the wizard to the database using AJAX call.
+- Country - drop-down list, which contains a list of counties.
+- Province - contains a list of provinces for the selected country. The list of provinces should be loaded by AJAX if the country is changed.
+- Button save - should validate all fields on the step and show validation errors (under the fields) or save the data from the wizard to the database using AJAX call.
 
 ![image](https://user-images.githubusercontent.com/2571795/164469801-42029a90-6ef8-4779-a81d-c2e5f8c9e4bd.png)
